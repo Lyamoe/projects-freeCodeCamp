@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width:device-width, initial-scale:1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>JS Docs</title>
+    </head>
+    <body>
+        <main id="main-doc">
+            <div id="whole-page">
+                <div id="side-page">
+                    <nav id="navbar">
+                        <header>
+                            <h1>JS Documentation</h1>
+                        </header>
+                        <hr>
+                        <a href="#variables" class="nav-link">Variables</a>
+                        <a href="#if-statement" class="nav-link">if Statement</a>
+                        <a href="#functions" class="nav-link">functions</a>
+                        <a href="#for" class="nav-link">for</a>
+                        <a href="#while" class="nav-link">while</a>
+                    </nav>
+                </div>
+                <div id="main-page">
+                    <section id="variables" class="main-section">
+                        <header>
+                            <h2>variables</h2>
+                        </header>
+                        <p>Variables are the main part of coding. They are the elements that keep some important information in your code,
+                            such as the example below.</p>
+                        <div class="code-box">
+                            <code><span>1: </span> var x = 5</code>
+                        </div>
+                        <p>In the code above, the variable "x" stores the number 5, that can have many different uses on your file, such as math
+                            problems, info validation and more! <br> But you can have other kinds of variables:</p>
+                        <h3></h3>
+                        <ul>
+                            <li>Number</li>
+                            <li>String</li>
+                            <li>Boolean</li>
+                        </ul>
+                    </section>
+                    <section id="if-statement" class="main-section">
+                        <header>
+                            <h2>if statement</h2>
+                        </header>
+                        <p>If statements are elements that guide your code between two or more distinct paths. <br>
+                            It begins with a basic true or false structure, where it does something when true and another one if it's false, but feel
+                            free to add as many as you feel like.</p>
+                        <div class="code-box">    
+                            <code>
+                                <span>1: </span>if (x > 3) {<br>
+                                <span>2: </span><span class="tab"></span>x++<span> -- sums one to the variable</span><br>
+                                <span>3: </span>} else {<br>
+                                <span>4: </span><span class="tab"></span>x--<span> -- subs one from the variable</span><br>
+                                <span>5: </span>}
+                            </code>
+                        </div>
+                        <p>You don't have to add an "else" if you there's nothing to happen when the statement is nottrue
+                        </p>
+                        <ul>
+                            <li>Always open and close the keys "{}"</li>
+                            <li>Put the condition inside parenthesis</li>
+                        </ul>
+                    </section>
+                    <section id="functions" class="main-section">
+                        <header>
+                            <h2>functions</h2>
+                        </header>
+                        <p>To keep your code clean and easier to find errors, you can create functions and name them with
+                            something that explain its objective. It is even more useful when you have to repeat the same
+                            instructions in different moments, so it saves you from writing the same things over and over.
+                        </p>
+                        <div class="code-box">    
+                            <code>
+                                <span>1: </span> function nameFunction (n1, n2) {<br>
+                                <span>2: </span><span class="tab"></span>var sum = n1 + n2 <span> -- sums two numbers</span><br>
+                                <span>3: </span><span class="tab"></span>return sum <span> -- return the result</span><br>
+                                <span>4: </span>}<br>
+                                <span>5: </span>console.log(nameFunction(1, 2))<span> -- shows the result</span>
+                            </code>
+                        </div>
+                        <p>As you can see, you need to call the function after you create it, else it won't do anything. Inside
+                            the parentheses, you have what are called parametes, which are basically variables that work in the
+                            function, and you must give the function all of its parameters for it to work. Yoy can create
+                            functions with no parameters if not needed, also functions with no return.
+                        </p>
+                    </section>
+                    <section id="for" class="main-section">
+                        <header>
+                            <h2>for</h2>
+                        </header>
+                        <p>About for loop</p>
+                        <div class="code-box">    
+                            <code>
+                                <span>1: </span> for (let i = 0; i < 10; i++) {<br>
+                                <span>2: </span><span class="tab"></span>console.log(i) <span> -- shows current loop number</span><br>
+                                <span>3: </span>}<br>
+                            </code>
+                        </div>
+                        <p>Code explanation</p>
+                    </section>
+                    <section id="while" class="main-section">
+                        <header>
+                            <h2>while</h2>
+                        </header>
+                        <p>About while loop</p>
+                        <div class="code-box">    
+                            <code>
+                                <span>1: </span> while (i < 10) {<br>
+                                <span>2: </span><span class="tab"></span>console.log(i) <span> -- shows current loop number</span><br>
+                                <span>2: </span><span class="tab"></span>i++<br>
+                                <span>3: </span>}<br>
+                            </code>
+                        </div>
+                        <p>Code explanation</p>
+                    </section>
+                </div>
+            <div>
+        </main>
+    </body>
+</html>
